@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:viajes_app/widgets/fondo_login.dart';
 import 'package:viajes_app/widgets/fondo_principal.dart';
 
 class PrincipalPage extends StatelessWidget {

@@ -6,7 +6,7 @@ import 'package:viajes_app/pages/insert_xp_page.dart';
 import 'package:viajes_app/pages/login_page.dart';
 import 'package:viajes_app/pages/principal_page.dart';
 import 'package:viajes_app/pages/registro_page.dart';
-import 'package:viajes_app/services/producto_service.dart';
+import 'package:viajes_app/services/destino_service.dart';
 
 void main() => runApp(AppState());
 
@@ -16,7 +16,7 @@ class AppState extends StatelessWidget {
   Widget build(BuildContext context) {
     return MultiProvider(
       providers: [
-        ChangeNotifierProvider(create: (_) => ProductoService())
+        ChangeNotifierProvider(create: (_) => DestinoService())
       ],
       child: MyApp(),
     );
